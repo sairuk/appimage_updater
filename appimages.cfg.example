@@ -1,0 +1,3 @@
+name,repo,pattern,update,pinned_version
+cemu,cemu-project/Cemu,Cemu-.*-x86_64.AppImage,True,Cemu-2.0-29-x86_64.AppImage
+pcsx2,PCSX2/pcsx2,pcsx2-.*-linux.*.AppImage,True,latest
