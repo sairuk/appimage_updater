@@ -11,6 +11,6 @@ pcsx2,PCSX2/pcsx2,pcsx2-.*-linux.*.AppImage,True,latest
 steam-rom-manager,SteamGridDB/steam-rom-manager,Steam-ROM-Manager-.*.AppImage,True,latest
 ```
 
-you can pin a version to link too incase later versions have issues or use the keywork latest to link to whatever version is downloaded
+you can pin a version to link too incase later versions have issues or use the keyword latest to link to whatever version is downloaded
 
 run with `python3 ./appimage_update.py --path <path to appimages>`
