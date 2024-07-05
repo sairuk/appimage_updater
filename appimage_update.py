@@ -52,7 +52,7 @@ def main(args):
 
 
                     # linking
-                    if os.path.exists(destlink):
+                    if os.path.islink(destlink):
                         os.unlink(destlink)
                     os.chmod(destfile,0o775)
                     if appimage['pinned_version'] == 'latest' or appimage['pinned_version'] == "":
